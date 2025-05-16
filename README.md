@@ -22,19 +22,6 @@ The project encompasses data preprocessing, exploratory data analysis (EDA), mod
   - [Data Source](#data-source)
   - [Data Description](#data-description)
 - [Project Structure](#project-structure)
-- [Methodology](#methodology)
-  - [Data Preprocessing](#data-preprocessing)
-  - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-  - [Model Training](#model-training)
-  - [Model Evaluation](#model-evaluation)
-- [Results](#results)
-  - [Random Forest](#random-forest)
-  - [XGBoost](#xgboost)
-  - [Comparison](#comparison)
-- [Potential Improvements](#potential-improvements)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Getting Started
 
@@ -83,7 +70,7 @@ Before running the code, ensure you have the following installed:
 
 ### Data Source
 
-The dataset used in this project contains records of diabetic patients and their hospital encounters. [If the data is publicly available, provide a link and citation here. If not, describe the nature of the data generally, e.g., "The data was obtained from a hospital database and includes features such as demographic information, medical history, diagnoses, medications, and hospital stay details."]
+The dataset used in this project contains records of diabetic patients and their hospital encounters. [https://www.kaggle.com/datasets/saurabhtayal/diabetic-patients-readmission-prediction]
 
 ### Data Description
 
@@ -102,3 +89,13 @@ The dataset includes various features related to patient demographics, medical c
     - `readmitted`: The target variable indicating if the patient was readmitted within 30 days (`<30`), after 30 days (`>30`), or not readmitted (`NO`). This was transformed into a binary target (1 for `<30`, 0 for `>30` or `NO`).
 
 ## Project Structure
+
+The project start with and Excel file where the data has been imported and then cleaned--> interpreted --> analysed --> some data visualization--> summary table.
+After for the purpose of EDA python has been used where we performed some common steps as preprocessing--> standardization/normalization --> feature eng .
+along with these files project contains a detailed info inform of report pdf.
+
+## Future improvedment
+Further models needs to be throughly analysed for teh more better accuracy, also some deep concept of ML required for further betterment
+but as a beginner IG this is good way to start 😊😊😊😊.....
+
+
