@@ -88,6 +88,11 @@ The dataset includes various features related to patient demographics, medical c
     - `max_glu_serum`: Maximum glucose serum test result.
     - `readmitted`: The target variable indicating if the patient was readmitted within 30 days (`<30`), after 30 days (`>30`), or not readmitted (`NO`). This was transformed into a binary target (1 for `<30`, 0 for `>30` or `NO`).
 
+ # Results
+ - Glimpse of data insights
+![Dashboard](https://github.com/anchaldubey15/Hospital_readmission_data_analysis/blob/main/Screenshot%202025-09-06%20223547.png)
+
+
 ## Project Structure
 
 The project start with and Excel file where the data has been imported and then cleaned--> interpreted --> analysed --> some data visualization--> summary table.
